@@ -256,6 +256,10 @@
                                 },
                                 "env": [
                                     {
+                                        "name": "JUPYTERHUB_DATABASE_USER",
+                                        "value": "jupyterhub"
+                                    },
+                                    {
                                         "name": "JUPYTERHUB_DATABASE_PASSWORD",
                                         "value": "${DATABASE_PASSWORD}"
                                     },
@@ -301,6 +305,10 @@
                                     {
                                         "name": "JUPYTERHUB_NOTEBOOK_INTERFACE",
                                         "value": "${NOTEBOOK_INTERFACE}"
+                                    },
+                                    {
+                                        "name": "JUPYTERHUB_DATABASE_USER",
+                                        "value": "jupyterhub"
                                     },
                                     {
                                         "name": "JUPYTERHUB_DATABASE_PASSWORD",

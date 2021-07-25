@@ -240,6 +240,10 @@
                                 },
                                 "env": [
                                     {
+                                        "name": "JUPYTERHUB_DATABASE_USER",
+                                        "value": "jupyterhub"
+                                    },
+                                    {
                                         "name": "JUPYTERHUB_DATABASE_PASSWORD",
                                         "value": "${DATABASE_PASSWORD}"
                                     },
@@ -301,6 +305,10 @@
                                     {
                                         "name": "JUPYTERHUB_IDLE_TIMEOUT",
                                         "value": "${IDLE_TIMEOUT}"
+                                    },
+                                    {
+                                        "name": "JUPYTERHUB_DATABASE_USER",
+                                        "value": "jupyterhub"
                                     },
                                     {
                                         "name": "JUPYTERHUB_DATABASE_PASSWORD",
