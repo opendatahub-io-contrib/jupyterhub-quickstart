@@ -1,7 +1,7 @@
 check:
   - thoth-build
 build:
-  base-image: "registry.access.redhat.com/ubi7/python-36"
+  base-image: "registry.access.redhat.com/ubi7/python-38"
   build-stratergy: "Source"
   registry: "quay.io"
   registry-org: "odh-jupyterhub"

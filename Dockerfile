@@ -1,4 +1,4 @@
-FROM centos/python-36-centos7:latest
+FROM registry.access.redhat.com/ubi7/python-38
 
 LABEL io.k8s.display-name="JupyterHub" \
       io.k8s.description="JupyterHub." \
